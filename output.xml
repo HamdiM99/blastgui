@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.14.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_13561</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>146</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_13561</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>146</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|7FCC|A</Hit_id>
+  <Hit_def>Chain A, Isoform 4 of Interleukin-1 receptor accessory protein [Homo sapiens]</Hit_def>
+  <Hit_accession>7FCC_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>1.17541e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|XP_014391929.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X3 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_014391929</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>1.0684e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_014391928.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_014391928</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>6.46881e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EPQ05249.1|</Hit_id>
+  <Hit_def>Interleukin-1 receptor accessory protein [Myotis brandtii]</Hit_def>
+  <Hit_accession>EPQ05249</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>7.90005e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_005862318.2|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X1 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_005862318</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.15467e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_020015459.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein-like, partial [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020015459</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.21714e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_028641414.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028641414</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.91618e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEQPHPGIMQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLE PHPGI+QLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_030889098.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein-like isoform X1 [Leptonychotes weddellii]</Hit_def>
+  <Hit_accession>XP_030889098</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.51466e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSISTKLIVVEYRPLEHPHPSILQLKESVSFVSWEGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSI+TKLIVVEYRPLEHPHP ILQLKESVSFVSW+GEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KAF6477714.1|</Hit_id>
+  <Hit_def>interleukin 1 receptor accessory protein [Molossus molossus]</Hit_def>
+  <Hit_accession>KAF6477714</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>8.80202e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KAF6119134.1|</Hit_id>
+  <Hit_def>interleukin 1 receptor accessory protein [Phyllostomus discolor]</Hit_def>
+  <Hit_accession>KAF6119134</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.09481e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHAGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKH+GSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_017382113.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Cebus imitator]</Hit_def>
+  <Hit_accession>XP_017382113</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.66004e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_036207987.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X5 [Myotis myotis]</Hit_def>
+  <Hit_accession>XP_036207987</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>2.50769e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSSSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHS SKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_021527043.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_021527043</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>3.5725e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_032154143.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_032154143</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>3.5725e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_017382112.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X1 [Cebus imitator]</Hit_def>
+  <Hit_accession>XP_017382112</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>3.81032e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_006765266.2|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein [Myotis davidii]</Hit_def>
+  <Hit_accession>XP_006765266</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>3.89307e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_010336027.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_010336027</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.07535e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_052609838.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Peromyscus californicus insignis]</Hit_def>
+  <Hit_accession>XP_052609838</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>4.13137e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|XP_045439784.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>XP_045439784</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.15449e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|XP_020925712.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Sus scrofa]</Hit_def>
+  <Hit_accession>XP_020925712</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>4.29298e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPSILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHP ILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAF6382246.1|</Hit_id>
+  <Hit_def>interleukin 1 receptor accessory protein [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>KAF6382246</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.48941e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_016797988.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X4 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016797988</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>4.77443e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|XP_011721427.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>XP_011721427</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.78857e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_011892217.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X2 [Cercocebus atys] &gt;ref|XP_031519735.1| interleukin-1 receptor accessory protein isoform X3 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_011892217</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.78857e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_032154144.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X4 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_032154144</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>4.94554e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|XP_031519732.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Papio anubis] &gt;ref|XP_031519733.1| interleukin-1 receptor accessory protein isoform X2 [Papio anubis] &gt;ref|XP_031519734.1| interleukin-1 receptor accessory protein isoform X2 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_031519732</Hit_accession>
+  <Hit_len>656</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>5.20282e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_008007715.2|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008007715</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>5.38974e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_006156778.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006156778</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>5.62658e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_033068941.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Trachypithecus francoisi]</Hit_def>
+  <Hit_accession>XP_033068941</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>5.93732e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_045439783.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>XP_045439783</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>5.99417e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>527</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_052609839.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Peromyscus californicus insignis]</Hit_def>
+  <Hit_accession>XP_052609839</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.45219e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|XP_015991815.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Rousettus aegyptiacus] &gt;gb|KAF6474465.1| interleukin 1 receptor accessory protein [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_015991815</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.45534e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>551</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_036059272.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Onychomys torridus]</Hit_def>
+  <Hit_accession>XP_036059272</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.59244e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|KAF6477720.1|</Hit_id>
+  <Hit_def>interleukin 1 receptor accessory protein [Molossus molossus]</Hit_def>
+  <Hit_accession>KAF6477720</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.68268e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_048309877.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Myodes glareolus]</Hit_def>
+  <Hit_accession>XP_048309877</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>6.72986e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|XP_051047206.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Phodopus roborovskii]</Hit_def>
+  <Hit_accession>XP_051047206</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.73573e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_057620116.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Chionomys nivalis]</Hit_def>
+  <Hit_accession>XP_057620116</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>7.25605e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_015859131.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X3 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_015859131</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>7.34073e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_019598708.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X3 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019598708</Hit_accession>
+  <Hit_len>645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>7.52422e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_048202903.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Perognathus longimembris pacificus]</Hit_def>
+  <Hit_accession>XP_048202903</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>7.8521e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_021527042.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X1 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_021527042</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>8.1647e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_048660040.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Marmota marmota marmota]</Hit_def>
+  <Hit_accession>XP_048660040</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>8.28572e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_028731002.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_028731002</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>8.35161e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_013207150.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Microtus ochrogaster]</Hit_def>
+  <Hit_accession>XP_013207150</Hit_accession>
+  <Hit_len>636</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>8.8058e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_008979642.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_008979642</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>9.38521e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_016055539.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X1 [Miniopterus natalensis]</Hit_def>
+  <Hit_accession>XP_016055539</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>9.38521e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_019479200.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-1 receptor accessory protein isoform X2 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_019479200</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>9.52852e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHAGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKH+GSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_036059271.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X2 [Onychomys torridus]</Hit_def>
+  <Hit_accession>XP_036059271</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>9.54814e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_036074584.1|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X1 [Rousettus aegyptiacus]</Hit_def>
+  <Hit_accession>XP_036074584</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>9.79626e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_003256706.2|</Hit_id>
+  <Hit_def>interleukin-1 receptor accessory protein isoform X1 [Nomascus leucogenys] &gt;ref|XP_012366012.2| interleukin-1 receptor accessory protein isoform X1 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_003256706</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>9.90181e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>548</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCONSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_qseq>
+      <Hsp_hseq>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMCQNSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_hseq>
+      <Hsp_midline>KEYDIYVSYARNAEEEEFVLLTLRGVLENEFGYKLCIFDRDSLPGGNTVEAVFDFIQRSRRMIVVLSPDYVTEKSISMLEFKLGVMC NSIATKLIVVEYRPLEHPHPGILQLKESVSFVSWKGEKSKHSGSKFWKALRLALPLRS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>599082554</Statistics_db-num>
+      <Statistics_db-len>235353967185</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more O characters replaced by X for alignment score calculations at positions 87</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
